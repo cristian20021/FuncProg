@@ -61,7 +61,7 @@ object Main {
     val fileName = s"adjusted_$name.csv"
     val writer = new FileWriter(new File(fileName))
     try {
-      writer.write("startTime,endTime,value\n") // write CSV header
+      writer.write("startTime,endTime,value\n") 
       data.foreach { d =>
         writer.write(s"${d.startTime},${d.endTime},${d.value}\n")
       }
