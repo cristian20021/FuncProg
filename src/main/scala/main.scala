@@ -1,3 +1,8 @@
+// Ciobanu Cristian
+// Mario Stanisor
+// Daniela Botu
+// Miruna Gherasim
+
 import java.io.{File, FileWriter}
 import java.time.{LocalDate, ZonedDateTime}
 import java.time.format.DateTimeFormatter
